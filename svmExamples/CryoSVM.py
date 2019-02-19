@@ -40,6 +40,9 @@ plt.subplots_adjust(wspace=0.4, bottom=0.15)
 plt.show()
 
 
+X = CryoData.loc[:,['Age','Time','Area']]
+y = CryoData.Success
+
 # Creating the training and testing data sets
 X_train, X_test, y_train, y_test = train_test_split(X, y,
                                                     test_size=0.3,
