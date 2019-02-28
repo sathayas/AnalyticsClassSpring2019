@@ -32,17 +32,6 @@ print(classification_report(y_test, y_pred,
                             target_names=target_names))
 
 
-# decision tree classifier, unconstrained
-dtUnc = DecisionTreeClassifier(criterion='entropy',
-                               random_state=0)
-dtUnc.fit(X_train,y_train)
-y_pred_unc = dtUnc.predict(X_test)
-print(confusion_matrix(y_test,y_pred_unc))
-print(classification_report(y_test, y_pred_unc,
-                            target_names=target_names))
-
-
-
 # visualizing the decision tree
 dot_data = export_graphviz(dtUnc, feature_names=feature_names,
                            class_names=target_names, 
@@ -54,4 +43,17 @@ graph = graphviz.Source(dot_data)
 ### Only works on Jupyter notebook. Otherwise I have to create a separate file
 graph
  
+
+
+# decision tree classifier, unconstrained
+dtUnc = DecisionTreeClassifier(criterion='entropy',
+                               random_state=0)
+dtUnc.fit(X_train,y_train)
+y_pred_unc = dtUnc.predict(X_test)
+print(confusion_matrix(y_test,y_pred_unc))
+print(classification_report(y_test, y_pred_unc,
+                            target_names=target_names))
+
+
+
 
