@@ -14,7 +14,7 @@ target_names = iris.target_names
 
 # spliting the data into training and testing data sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4,
-                                                    random_state=0)
+                                                    random_state=2018)
 
 
 # random forest classifier, training & testing
