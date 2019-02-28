@@ -42,3 +42,16 @@ print(classification_report(y_test, y_pred_unc,
                             target_names=target_names))
 
 
+
+# visualizing the decision tree
+dot_data = export_graphviz(dtUnc, feature_names=feature_names,
+                           class_names=target_names, 
+                           filled=True, rounded=True,  
+                           special_characters=True, 
+                           out_file=None)
+graph = graphviz.Source(dot_data)
+
+### Only works on Jupyter notebook. Otherwise I have to create a separate file
+graph
+ 
+
