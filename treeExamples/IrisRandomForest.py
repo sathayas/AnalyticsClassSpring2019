@@ -70,9 +70,8 @@ print(classification_report(y_test, y_pred,
                             target_names=target_names))
 
 
-# visualizing a couple of decision trees
-rfsample = rf.estimators_[5]
-dot_data = export_graphviz(rfsample, feature_names=feature_names,
+# visualizing the decision tree
+dot_data = export_graphviz(dt, feature_names=feature_names,
                            class_names=target_names, 
                            filled=True, rounded=True,  
                            special_characters=True, 
