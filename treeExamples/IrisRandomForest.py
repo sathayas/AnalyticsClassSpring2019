@@ -1,4 +1,5 @@
 import numpy as np
+import graphviz
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
