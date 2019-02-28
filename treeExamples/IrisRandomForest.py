@@ -19,14 +19,14 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4,
 
 # random forest classifier, training & testing
 rf = RandomForestClassifier(criterion='entropy',
-                            n_estimators = 20,
+                            n_estimators = 50,
                             min_samples_leaf = 3,
                             max_depth = 4,
                             random_state=0)
 rf.fit(X_train,y_train)
 
 
-
+# evaluating the classifier performance
 y_pred = rf.predict(X_test)
 print(confusion_matrix(y_test,y_pred))
 print(classification_report(y_test, y_pred,
