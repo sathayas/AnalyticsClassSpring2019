@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import graphviz
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
