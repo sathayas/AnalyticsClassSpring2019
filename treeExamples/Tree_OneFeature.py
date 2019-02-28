@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import graphviz
+import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier, export_graphviz
 from sklearn.preprocessing import LabelEncoder
 
@@ -15,6 +16,8 @@ y = LEEdible.fit_transform(mushroomData.Edible)
 Edible_class = LEEdible.classes_
 
 
+
+
 # classifier, CapSurface
 LECapSurface = LabelEncoder()
 CapSurface = LECapSurface.fit_transform(mushroomData.CapSurface)
@@ -23,12 +26,19 @@ dtCapSurface = DecisionTreeClassifier(max_depth=1,criterion='entropy',
                                       random_state=0)
 dtCapSurface.fit(CapSurface.reshape(-1, 1),y)
 
-# exporting a graphviz file
+# generating a decision tree
 dot_data = export_graphviz(dtCapSurface, feature_names=feature_names[0:1],
                            class_names=Edible_class, 
                            filled=True, rounded=True,  
-                           special_characters=True, 
-                           out_file='Tree_CapSurface.dot') 
+                           special_characters=True,
+                           out_file=None) 
+graph = graphviz.Source(dot_data)
+
+### Only works on Jupyter notebook. Otherwise I have to create a separate file
+graph
+
+
+
 
 
 # classifier, CapColor
@@ -39,12 +49,19 @@ dtCapColor = DecisionTreeClassifier(max_depth=1,criterion='entropy',
                                       random_state=0)
 dtCapColor.fit(CapColor.reshape(-1, 1),y)
 
-# exporting a graphviz file
+# generating a decision tree
 dot_data = export_graphviz(dtCapColor, feature_names=feature_names[1:2],
                            class_names=Edible_class, 
                            filled=True, rounded=True,  
                            special_characters=True, 
-                           out_file='Tree_CapColor.dot') 
+                           out_file=None) 
+graph = graphviz.Source(dot_data)
+
+### Only works on Jupyter notebook. Otherwise I have to create a separate file
+graph
+
+
+
 
 
 # classifier, GillSize
@@ -55,12 +72,18 @@ dtGillSize = DecisionTreeClassifier(max_depth=1,criterion='entropy',
                                       random_state=0)
 dtGillSize.fit(GillSize.reshape(-1, 1),y)
 
-# exporting a graphviz file
+# generating a decision tree
 dot_data = export_graphviz(dtGillSize, feature_names=feature_names[2:3],
                            class_names=Edible_class, 
                            filled=True, rounded=True,  
                            special_characters=True, 
-                           out_file='Tree_GillSize.dot') 
+                           out_file=None) 
+
+graph = graphviz.Source(dot_data)
+
+### Only works on Jupyter notebook. Otherwise I have to create a separate file
+graph
+
 
 
 
@@ -76,4 +99,9 @@ dot_data = export_graphviz(dtAll, feature_names=feature_names,
                            class_names=Edible_class, 
                            filled=True, rounded=True,  
                            special_characters=True, 
-                           out_file='Tree_All.dot') 
+                           out_file=None) 
+
+graph = graphviz.Source(dot_data)
+
+### Only works on Jupyter notebook. Otherwise I have to create a separate file
+graph
