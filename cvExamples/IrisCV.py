@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 # Loading the iris data
 iris = datasets.load_iris()
-X = iris.data[:,[0,3]]  # sepal length and petal width only
+X = iris.data
 y = iris.target
 
 
