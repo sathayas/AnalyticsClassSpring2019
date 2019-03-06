@@ -10,7 +10,7 @@ from sklearn.pipeline import make_pipeline
 CryoData = pd.read_csv('Cryotherapy.csv')
 
 # Creating the data set
-X = np.array(CryoData.loc[:,['Age','Time']])
+X = np.array(CryoData.loc[:,['Age','Time','Area']])
 y = np.array(CryoData.Success)
 targetNames = ['Failure', 'Success']
 
@@ -22,3 +22,6 @@ kNN = make_pipeline(StandardScaler(),
 # 5-fold cross validation
 scores = cross_val_score(kNN, X, y, cv=5)
 print(scores)
+
+# average score
+print(np.mean(scores))
