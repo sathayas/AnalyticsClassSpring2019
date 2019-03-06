@@ -7,7 +7,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 # Loading the iris data
 iris = datasets.load_iris()
-X = iris.data[:,[0,3]]  # sepal length and petal width only
+X = iris.data
 y = iris.target
 feature_names = iris.feature_names
 target_names = iris.target_names
