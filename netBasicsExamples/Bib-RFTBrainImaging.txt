@@ -1,0 +1,77 @@
+Yuan C, Zhu H, Ren Z, Yuan M, Gao M, Zhang Y, Li Y, Meng Y, Gong Q, Lui S, Qiu C, Zhang W.
+Flandin G, Friston KJ.
+Segovia F, Górriz JM, Ramírez J, Martínez-Murcia FJ, Salas-Gonzalez D.
+Vandekar SN, Satterthwaite TD, Rosen A, Ciric R, Roalf DR, Ruparel K, Gur RC, Gur RE, Shinohara RT.
+Mueller K, Lepsien J, Möller HE, Lohmann G.
+Whittle S, Vijayakumar N, Simmons JG, Dennison M, Schwartz O, Pantelis C, Sheeber L, Byrne ML, Allen NB.
+Li J, Gahm JK, Shi Y, Toga AW.
+Li H, Nickerson LD, Nichols TE, Gao JH.
+Ould Ismail AA, Amouzandeh G, Grant SC.
+Barranca VJ, Kovačič G, Zhou D, Cai D.
+Kerepesi C, Szalkai B, Varga B, Grolmusz V.
+Packham B, Barnes G, Dos Santos GS, Aristovich K, Gilad O, Ghosh A, Oh T, Holder D.
+Tak S, Uga M, Flandin G, Dan I, Penny WD.
+Ducharme S, Albaugh MD, Nguyen TV, Hudziak JJ, Mateos-Pérez JM, Labbe A, Evans AC, Karama S.
+Baselice F, Ferraioli G, Pascazio V.
+Verma N, Muralidhar GS, Bovik AC, Cowperthwaite MC, Burnett MG, Markey MK.
+Wang C, Xu J, Zhao S, Lou W.
+Li H, Nickerson LD, Zhao X, Nichols TE, Gao JH.
+Huang Y, Parra LC.
+Hupé JM.
+Ingo C, Sui Y, Chen Y, Parrish TB, Webb AG, Ronen I.
+Roels SP, Bossier H, Loeys T, Moerkerke B.
+Magin RL, Ingo C, Triplett W, Colon-Perez L, Mareci TH.
+Tam LK, Galiana G, Stockmann JP, Tagare H, Peters DC, Constable RT.
+Li H, Nickerson LD, Xiong J, Zou Q, Fan Y, Ma Y, Shi T, Ge J, Gao JH.
+Toppi J, De Vico Fallani F, Petti M, Vecchiato G, Maglione A, Cincotti F, Salinari S, Mattia D, Babiloni F, Astolfi L.
+Durnez J, Moerkerke B, Nichols TE.
+Hassanpour MS, White BR, Eggebrecht AT, Ferradal SL, Snyder AZ, Culver JP.
+Litvak V, Jha A, Flandin G, Friston KJ.
+Ge T, Feng J, Hibar DP, Thompson PM, Nichols TE.
+Valsasina P, Horsfield MA, Rocca MA, Absinta M, Comi G, Filippi M.
+Joyce KE, Hayasaka S.
+Johnson TD, Liu Z, Bartsch AJ, Nichols TE.
+Nichols TE.
+Gonzalez JE, Thompson PM, Zhao A, Tu Z.
+Litvak V, Mattout J, Kiebel S, Phillips C, Henson R, Kilner J, Barnes G, Oostenveld R, Daunizeau J, Flandin G, Penny W, Friston KJ.
+Viviani R.
+Salimi-Khorshidi G, Smith SM, Nichols TE.
+Sotiras A, Ou Y, Glocker B, Davatzikos C, Paragios N.
+Brignell CJ, Dryden IL, Gattone SA, Park B, Leask S, Browne WJ, Flynn S.
+Harrison LM, Green GG.
+Chumbley J, Worsley KJ, Flandin G, Friston KJ.
+Bansal R, Staib LH, Xu D, Laine AF, Liu J, Peterson BS.
+Pendse G, Borsook D, Becerra L.
+Li W, Chen WF.
+Kornak J, Young K, Schuff N, Du A, Maudsley AA, Weiner MW.
+Carbonell F, Worsley KJ, Trujillo-Barreto NJ, Sotero RC.
+Salimi-Khorshidi G, Smith SM, Nichols TE.
+Lee JE, Chung MK, Lazar M, DuBray MB, Kim J, Bigler ED, Lainhart JE, Alexander AL.
+Ibbotson MR, Crowder NA, Cloherty SL, Price NS, Mustari MJ.
+Zhang H, Nichols TE, Johnson TD.
+Qiu A, Vaillant M, Barta P, Ratnanather JT, Miller MI.
+Hayasaka S, Peiffer AM, Hugenschmidt CE, Laurienti PJ.
+Chung MK, Robbins S, Evans AC.
+Tabelow K, Polzehl J, Voss HU, Spokoiny V.
+Eickhoff SB, Heim S, Zilles K, Amunts K.
+Rose SE, McMahon KL, Janke AL, O'Dowd B, de Zubicaray G, Strudwick MW, Chalk JB.
+Wu J, Chung AC.
+Rose SE, Chalk JB, Janke AL, Strudwick MW, Windus LC, Hannah DE, McGrath JJ, Pantelis C, Wood SJ, Mowry BJ.
+Taylor JE, Worsley KJ.
+Worsley KJ.
+Pantazis D, Nichols TE, Baillet S, Leahy RM.
+Kilner JM, Kiebel SJ, Friston KJ.
+Worsley KJ, Taylor JE, Tomaiuolo F, Lerch J.
+Wang F, Vemuri BC, Rao M, Chen Y.
+Hayasaka S, Phan KL, Liberzon I, Worsley KJ, Nichols TE.
+Carbonell F, Galán L, Valdés P, Worsley KJ, Biscay RJ, Díaz-Comas L, Bobes MA, Parra M.
+Hayasaka S, Nichols TE.
+Thompson P, Cannon TD, Toga AW.
+Nichols TE, Holmes AP.
+Kiebel SJ, Poline JB, Friston KJ, Holmes AP, Worsley KJ.
+Worsley KJ, Andermann M, Koulis T, MacDonald D, Evans AC.
+Petersson KM, Nichols TE, Poline JB, Holmes AP.
+Thompson PM, Toga AW.
+Worsley KJ, Cao J, Paus T, Petrides M, Evans AC.
+Lange N.
+Choi HS, Haynor DR, Kim Y.
