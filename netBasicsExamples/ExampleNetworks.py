@@ -28,7 +28,7 @@ for i,d in G.nodes(data=True):
 # drawing nodes, different conferences in different colors
 for iConf in range(12):
     nx.draw_networkx_nodes(G, pos,
-                           cmap=plt.cm.Vega20, node_color=conf)
+                           cmap=plt.cm.tab20, node_color=conf)
 nx.draw_networkx_edges(G, pos, edge_color='lightblue')
 nx.draw_networkx_labels(G, pos, font_size=10, font_color='DarkGreen')
 plt.axis('off')
