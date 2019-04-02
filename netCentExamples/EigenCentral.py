@@ -38,9 +38,9 @@ for iNode in range(5):
 print()
 
 print('Network science co-authorship network -- Top degree centrality nodes')
-print('Node           \tEigenvector centrality')
+print('%-16s' % 'Node' + '\tEigenvector centrality')
 for iNode in range(15):
-    print('%-14s\t' % str(sCeig_netsci_node[iNode]), end='')
+    print('%-16s\t' % str(sCeig_netsci_node[iNode]), end='')
     print('%6.4f' % sCeig_netsci_k[iNode])
 print()
 
