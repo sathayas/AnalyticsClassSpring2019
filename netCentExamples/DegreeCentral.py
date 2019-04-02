@@ -38,12 +38,11 @@ for iNode in range(5):
 print()
 
 print('Network science co-authorship network -- Top degree centrality nodes')
-print('Node           \tDegree centrality')
+print('%-16s' % 'Node' + '\tDegree centrality')
 for iNode in range(15):
-    print('%-14s\t' % str(sCdeg_netsci_node[iNode]), end='')
+    print('%-16s\t' % str(sCdeg_netsci_node[iNode]), end='')
     print('%6.4f' % sCdeg_netsci_k[iNode])
 print()
-
 
 
 
