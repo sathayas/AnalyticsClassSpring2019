@@ -17,7 +17,7 @@ plt.show()
 
 
 # loading course syllabus
-f = open('Syllabus_UTFormat_v5.txt','r', encoding = "ISO-8859-1")
+f = open('Analytics_Syllabus_v2.txt','r', encoding = "ISO-8859-1")
 text = f.read()
 f.close()
 
