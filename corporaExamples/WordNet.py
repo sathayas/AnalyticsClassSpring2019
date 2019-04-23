@@ -30,11 +30,18 @@ print(syns[0].lemma_names())
 print(syns[0].examples())
 
 
+# program and code
+print(wn.synset('program.n.07').definition())
+print(wn.synset('code.n.03').definition())
 
 # similarity
 synsProgram = wn.synset('program.n.07')
 synsCode = wn.synset('code.n.03')
 print(synsProgram.wup_similarity(synsCode))
+
+
+# program as in TV or radio show
+print(wn.synset('broadcast.n.02').definition())
 
 synsBroadcast = wn.synset('broadcast.n.02')
 synsCode = wn.synset('code.n.03')
