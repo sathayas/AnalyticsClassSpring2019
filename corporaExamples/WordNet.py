@@ -23,8 +23,11 @@ for isyn in syns:
     print(isyn, ':', end='')
     print(isyn.definition())
 
-# synnonyms
-print(wn.synset('plan.n.01').lemma_names())
+# synonyms
+print(syns[0].lemma_names())
+
+# examples
+print(syns[0].examples())
 
 
 
