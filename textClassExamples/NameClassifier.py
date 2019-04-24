@@ -44,7 +44,7 @@ clf.show_most_informative_features(10)
 
 # examining classification errors
 errorData = []
-testDataFull = nameData[:1000]
+testDataFull = nameData[:1000]   # Extracting the full testing data
 for iData in testDataFull:
     trueCat = iData[1]
     predCat = clf.classify(gender_feature(iData[0]))
@@ -57,9 +57,3 @@ for (y_true, y_pred, name) in sorted(errorData):
     print('Truth: %-6s\t' % y_true, end='')
     print('Pred: %-6s\t' % y_pred, end='')
     print('Name: %-12s' % name)
-
-
-    
-
-
-    
