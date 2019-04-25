@@ -11,13 +11,13 @@ from wordcloud import WordCloud
 # loading the newsgroup data to be clustered
 newsGroups = ['soc.religion.christian',
               'comp.graphics',
-              'sci.med', 
+              'sci.med',
               'rec.sport.baseball']
 
 from sklearn.datasets import fetch_20newsgroups
 newsData = fetch_20newsgroups(subset='all',
-                              categories=newsGroups, 
-                              shuffle=True, 
+                              categories=newsGroups,
+                              shuffle=True,
                               random_state=0)
 
 # news posts (X) and labels (Y)
@@ -55,14 +55,14 @@ X_proc =[]
 for iDoc in X_NoHead:
     # tokenize into words
     wordText = nltk.word_tokenize(iDoc)
-    # removing punctuation marks & stop words, making all words lower case, 
+    # removing punctuation marks & stop words, making all words lower case,
     wordDePunct = [w.lower() for w in wordText if w.isalpha()]
     wordNoStopwd = [w for w in wordDePunct if w not in stop_words]
     # stemming
     wordStem = [ps.stem(w) for w in wordNoStopwd]
     # putting back into a document
     X_proc.append(' '.join(wordStem))
-    
+
 
 # converting to frequencies to be used as features
 X_counts = CountVectorizer().fit_transform(X_proc)
@@ -70,14 +70,14 @@ X_tf = TfidfTransformer().fit_transform(X_counts)
 
 
 # K-means clustering
-km = KMeans(n_clusters=4)  
+km = KMeans(n_clusters=4)
 km.fit(X_tf)  # fitting the principal components
 Y_clus = km.labels_   # clustering info resulting from K-means
 
 
 # the performance of clustering
-print('ARI=%6.4f' % adjusted_rand_score(Y, Y_clus),sep='')
-print('AMI=%6.4f' % adjusted_mutual_info_score(Y, Y_clus),sep='')
+print('ARI=%6.4f' % adjusted_rand_score(Y, Y_clus))
+print('AMI=%6.4f' % adjusted_mutual_info_score(Y, Y_clus))
 
 
 
@@ -92,7 +92,7 @@ for iClus in range(max(Y_clus)+1):
 
     # genrating the word cloud
 
-    wordcloud = WordCloud(max_font_size=100,  
+    wordcloud = WordCloud(max_font_size=100,
                           background_color='white',
                           collocations=False,
                           width=800,
@@ -103,5 +103,3 @@ for iClus in range(max(Y_clus)+1):
     plt.axis("off")
     plt.title('Cluster ' + str(iClus+1), fontsize=18)
     plt.show()
-
-
