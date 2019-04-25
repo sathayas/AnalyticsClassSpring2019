@@ -32,8 +32,8 @@ X_train_counts.nonzero()
 
 
 # converting to term frequency
-tf_transformer = TfidfTransformer().fit(X_train_counts)
-X_train_tf = tf_transformer.transform(X_train_counts)
+tf_transformer = TfidfTransformer()
+X_train_tf = tf_transformer.fit_transform(X_train_counts)
 
 # classifier (naive Bayes)
 clf_nb = MultinomialNB().fit(X_train_tf, Y_train)
@@ -62,4 +62,3 @@ Y_pred_svm = clf_svm.predict(X_test_tf)
 print('Accuracy - Linear SVM: %6.4f' % accuracy_score(Y_test,Y_pred_svm))
 print(confusion_matrix(Y_test,Y_pred_svm))
 print(classification_report(Y_test,Y_pred_svm))
-
